@@ -41,6 +41,7 @@ h2{
 }
 h1, h2{
     /* text-decoration: capitalize; */
+    text-align: center;
 }
 h2::first-letter{
     color: #FF0000;

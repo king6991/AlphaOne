@@ -4,61 +4,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2{
-   background-color: #808080;
-   border-block-end: solid 10px #696969;
-   padding: block 30px;
+html{
+    font-size: 50px
+
 }
-   h2 p{
+
+h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-    color: #000;
-    line-height: 1.5;
-    margin: 20px 0;
+    font-weight: 700;
+    font-style: normal;
+    
+    font-size: 0.6rem;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 0.8rem;
+    border-block-start:20px solid ;
+    border-block-end: 20px solid ;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
 }
 h2{
     text-align: center;
-    padding: 20px;
-
-}
-h2::first-letter{
-    color: red;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-ul,li{
-    list-style-type: lower-greek;
-    text-decoration:overline;
-    border-top: #888;
-}
-body{
-    font-family:'Poppins', sans-serif;
-    font: weight 100px; ;
-    font-style:normal ;
-    font: size 20%; ;
-    line-height: 2rem;
+    border-block-end: 20px solid #808080;
+    background-color: #D3D3D3;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
     
 }
-a :link{
-    color: crimson;
-    background-color: red;
-    text-decoration: none;
+h1, h2{
+    /* text-decoration: capitalize; */
 }
-a:visited{
-    color: chartreuse;
-    background-color:blue;
-    text-decoration: none;
+h2::first-letter{
+    color: #FF0000;
 }
-a:hover{
-    color:blue;
-    background-color: red;
-    text-decoration: none;
-}
-a:active{
-    color: yellow;
-    background-color: green;
-    text-decoration: none;
+ul,li {
+    list-style-type: lower-greek;
+    border-block-start: 20px solid #808080;
 }
 
+section, dl{
+    font-size: 0.5rem;
+}
+img:nth-of-type(odd){
+    border-radius: 0px 60px 0px 60px;
+}
+img:nth-of-type(even){
+    border-radius: 60px 0px 60px 0px;
+}
+
+a{
+    background-color:#808080;
+    color:#fff ;
+}
+a:hover{
+    background-color:#FF0000;
+}
+a:visited{
+    color:#000;
+}
+a:active{
+    background-color:#DC143C;
+    color:#fff;
+}
+body{
+   margin-inline: auto;
+   width: 70%;
+   background-image: radial-gradient(#ccc, #ddd);
+}

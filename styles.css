@@ -19,10 +19,11 @@ p{
 }
 
 h1{
-    text-decoration: capitalize;
+    /* text-decoration: capitalize; */
     font-size: 0.8rem;
     border-block-start: 10px solid;
     border-block-end: 10px solid;
+    text-align: center;
 
 }
 
